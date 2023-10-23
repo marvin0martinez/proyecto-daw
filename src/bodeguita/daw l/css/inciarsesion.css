@@ -1,0 +1,81 @@
+/* Estilos para el fondo de la página */
+body {
+    background-color: #182052;
+    color: white;
+}
+
+/* Estilo para el logo */
+.logo {
+    width: 150px; /* Ajusta el ancho de tu logo */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
+    display: block; /* Hace que el logo sea un bloque, para controlar el espacio alrededor */
+   
+    border: 1px solid #ccc; /* Agrega un borde alrededor del logo */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra al logo */
+}
+
+
+/* Estilos para el contenedor del formulario */
+.login-container {
+    border-radius: 50px;
+    border: 1px solid #faf5f5;
+    padding: 10px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: rgba(113, 109, 109, 0.215);
+}
+
+.login-title {
+    text-align: center;
+}
+
+form input {
+    width: 85%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+/* Estilo para el contenedor de botones */
+.button-container {
+    text-align: center;
+}
+
+.button-container input[type="submit"][value="Iniciar Sesion"] {
+    padding: 10px 30px; 
+    margin: 10px;
+    background-color: rgb(255, 98, 0); 
+    border-radius: 20px; 
+}
+
+.button-container input[type="submit"][value="Registrarse"] {
+    padding: 10px 30px; 
+    margin: 10px;
+    background-color: rgb(255, 98, 0); 
+    border-radius: 20px; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+
+h4 {
+    text-align: left;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    display: inline;
+}
+
+body::before {
+    content: "";
+    color: white;
+    margin-right: 10px;
+}

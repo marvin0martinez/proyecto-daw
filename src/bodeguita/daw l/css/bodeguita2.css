@@ -1,0 +1,73 @@
+body {
+    background-color: #182052;
+    color: white;
+}
+
+
+.logo {
+    width: 150px; 
+    height: auto;
+    display: block; 
+   
+    border: 1px solid #cccccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+footer {
+    background-color: #2750a9; 
+    color: white; 
+    padding: 10px; 
+    text-align: center;
+
+  }
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#search-button {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+  
+  
+p {
+    float: left;
+    width: 50%; 
+  }
+  
+
+#mi-imagen {
+    float: right; 
+    width: 50%; 
+  }
+
+  div {
+    clear: both;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #999; 
+  }
+
+  
+  div img {
+    float: left; 
+    margin-right: 50px;
+  }
+  
+  div h1, div a {
+    float: right; 
+  }

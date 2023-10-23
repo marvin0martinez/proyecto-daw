@@ -1,0 +1,60 @@
+/* Definición de estilos CSS */
+body {
+    background-color: #182052; 
+    font-family: Arial, sans-serif;
+    color: #fff;
+    
+}
+ h1 {
+            font-family: "Arial Black", sans-serif; 
+            text-align: right; 
+            padding-right: 45px;
+        }
+h3 {
+    text-align: center;
+}
+
+.product-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.product-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%; 
+            display: block; 
+            margin: 0 auto;
+    }
+
+.info-button {
+    background-color: #FFA500; /* Cambiar el color de los botones a naranja (#FFA500) */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 55px;
+}
+.orange-button {
+   background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+/* Estilo para el logo */
+.logo {
+    width: 150px; /* Ajusta el ancho de tu logo */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
+    display: block; /* Hace que el logo sea un bloque, para controlar el espacio alrededor */
+   
+    border: 1px solid #ccc; /* Agrega un borde alrededor del logo */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra al logo */
+}

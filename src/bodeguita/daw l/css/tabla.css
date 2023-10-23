@@ -1,0 +1,56 @@
+body {
+    background-color: #182052; 
+    font-family: Arial, sans-serif;
+    color: #fff;
+    
+}
+ h1 {
+            font-family: "Arial Black", sans-serif; 
+            text-align: right; 
+            padding-right: 45px;
+        }
+#tabla_ex {
+    text-align: center; /* Centra horizontalmente */
+    margin-top: 100px; /* Separa de la parte superior */
+}
+
+.product-table {
+    width: 60%; /* Ancho de la tabla */
+    margin: 0 auto; /* Centrar horizontalmente */
+    border-collapse: collapse;
+}
+
+.product-table td {
+    border: 1px solid #ccc; /* Borde gris */
+    padding: 10px;
+}
+
+.product-table th {
+    background-color: #ccc; /* Fondo gris */
+    color: #000; /* Texto negro */
+    padding: 10px;
+}
+.orange-button-container {
+    text-align: center; /* Centra los botones horizontalmente */
+    margin-top: 20px; /* Separación desde arriba */
+}
+
+.orange-button {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 10px; /* Margen a los lados de los botones */
+}
+
+/* Estilo para el logo */
+.logo {
+    width: 150px; /* Ajusta el ancho de tu logo */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
+    display: block; /* Hace que el logo sea un bloque, para controlar el espacio alrededor */
+   
+    border: 1px solid #ccc; /* Agrega un borde alrededor del logo */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra al logo */
+}

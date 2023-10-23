@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>La Bodeguita SA de SV</title>
+    <link rel="stylesheet" type="text/css" href="css/tabla.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/bodeguita.png" alt="Logo de La Bodeguita" class="logo">
+    </header>
+    <div>
+        <h4>Wine Cellar</h4>
+        --------
+    </div>
+    <h1>La Bodeguita SA de SV</h1>
+
+
+
+    <div id="tabla_ex">
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>ID Producto</th>
+                    <th>Nombre Producto</th>
+                    <th>Precio Unitaria</th>
+                    <th>Cantidad Vendida</th>
+                    <th>Descripcion</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" name="idProducto1" /></td>
+                    <td><input type="text" name="nombreProducto1" /></td>
+                    <td><input type="text" name="precioUnitaria1" /></td>
+                    <td><input type="text" name="cantidadVendida1" /></td>
+                    <td><input type="text" name="descripcion1" /></td>
+                    <td><input type="text" name="categoria1" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="idProducto2" /></td>
+                    <td><input type="text" name="nombreProducto2" /></td>
+                    <td><input type="text" name="precioUnitaria2" /></td>
+                    <td><input type="text" name="cantidadVendida2" /></td>
+                    <td><input type="text" name="descripcion2" /></td>
+                    <td><input type="text" name="categoria2" /></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="idProducto3" /></td>
+                    <td><input type="text" name="nombreProducto3" /></td>
+                    <td><input type="text" name="precioUnitaria3" /></td>
+                    <td><input type="text" name="cantidadVendida3" /></td>
+                    <td><input type="text" name="descripcion3" /></td>
+                    <td><input type="text" name="categoria3" /></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+    <div class="orange-button-container">
+        <button class="orange-button" onclick="mostrarProductosTabla()">Modificar</button>
+        <button class="orange-button" onclick="mostrarProductosTabla()">Archivo Excel</button>
+        <button class="orange-button" id="regresarButton">Regresar</button>
+        <button class="orange-button" id="inicioButton">Inicio</button>
+
+    </div>
+    <script src="js/tabla.js"></script>
+</body>
+
+</html>

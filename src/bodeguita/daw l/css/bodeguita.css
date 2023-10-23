@@ -1,0 +1,154 @@
+body {
+    background-color: #182052;
+    color: white;
+}
+
+/* Estilo para el logo */
+.logo {
+    width: 150px; /* Ajusta el ancho de tu logo */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
+    display: block; /* Hace que el logo sea un bloque, para controlar el espacio alrededor */
+   
+    border: 1px solid #cccccc; /* Agrega un borde alrededor del logo */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra al logo */
+}
+
+/* bodeguita.css */
+footer {
+    background-color: #2750a9; /* Cambia el color de fondo según tus preferencias */
+    color: white; /* Color del texto en el pie de página */
+    padding: 10px; /* Relleno (ajusta según tus preferencias) */
+    text-align: center;
+
+  }
+  
+  /* Estilo para el párrafo */
+p {
+    float: left; /* Alinear el párrafo a la izquierda */
+    width: 50%; /* Ocupar el 50% del ancho del contenedor padre (ajusta según tus necesidades) */
+  }
+  
+  /* Estilo para el contenedor principal */
+  .contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Estilo para el texto (izquierda) */
+  .texto {
+    flex: 1; /* El texto ocupará el espacio restante */
+    text-align:left;
+  }
+
+  #mi-imagen {
+    border: 2px solid #ccc; /* Agrega un borde de 2 píxeles sólido con color gris claro */
+    transition: transform 0.3s; /* Agrega una transición de 0.3 segundos para un cambio suave de tamaño */
+  }
+  
+  #mi-imagen:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% (la agranda) al pasar el mouse por encima */
+  }
+
+  /* Estilo para la imagen (derecha) */
+  #mi-imagen {
+    width: 50%; /* Ajusta el ancho de la imagen según tu preferencia */
+  }
+
+  div {
+    clear: both;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+
+  
+  div img {
+    float: left; /* Alinear las imágenes a la izquierda */
+    margin-right: 50px; /* Agregar un espacio entre las imágenes */
+  }
+  
+  div h1, div a {
+    float: right; /* Alinear el título y el párrafo a la derecha */
+  }
+  
+  
+  .orange-button {
+    background-color: rgb(254, 98, 7); /* Cambia el color de fondo a anaranjado */
+    color: white; /* Cambia el color del texto a blanco */
+    border: none; /* Elimina el borde */
+    padding: 10px 20px; /* Ajusta el relleno según tus preferencias */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Agrega bordes redondeados (ajusta según tus preferencias) */
+  }
+  
+  /* Estilo al pasar el ratón por encima (hover) */
+  .orange-button:hover {
+    background-color: rgb(0, 255, 85); /* Cambia el color de fondo al pasar el ratón por encima */
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Envolver las imágenes cuando el espacio es insuficiente */
+  }
+
+  /* Estilo para las imágenes en el lado izquierdo */
+  img {
+    max-width: 100%; /* Asegura que las imágenes sean responsivas */
+  }
+
+  /* Estilo para el texto en el lado derecho */
+  h1, a {
+    flex: 1; /* El texto ocupará el espacio restante */
+  }
+
+  /* Estilo para los íconos de redes sociales */
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .social-icons img {
+    width: 50px; /* Tamaño deseado para los íconos */
+    margin-right: 10px; /* Espacio entre los íconos */
+  }
+
+  .segundo {
+    border-top: 1px solid #999; /* Agregar una línea divisoria de 1 píxel de grosor y color gris en la parte superior del div */
+    padding-top: 20px; /* Añadir espacio superior para la línea divisoria */
+  }
+  
+  .segundo {
+    text-align: center; /* Alinea el contenido al centro */
+  }
+  
+  .segundo img {
+    width: 250px; /* Establece el ancho deseado para las imágenes */
+    border: 1px solid #ccc; /* Agrega un borde de 1 píxel sólido con color gris claro */
+    margin: 10px; /* Agrega un espacio alrededor de las imágenes */
+    transition: transform 0.3s; /* Agrega una transición de 0.3 segundos para el efecto de agrandamiento */
+  }
+  
+  .segundo img:hover {
+    transform: scale(1.1); /* Agrandar la imagen al 110% al pasar el mouse por encima */
+  }
+  
+  .segundo h1 {
+    text-align: center; /* Alinea el título al centro */
+  }
+  
+  .segundo a {
+    text-align: center; /* Alinea el texto al centro */
+  }
+  
+  
