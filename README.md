@@ -5,7 +5,7 @@ https://trello.com/b/VksYETOf/proyecto
 
 
 # link canva de mockups
-
+https://www.canva.com/design/DAFx1r_MZLE/Fb18mokwr1ODsJvzM5blkA/edit
 
 
 
